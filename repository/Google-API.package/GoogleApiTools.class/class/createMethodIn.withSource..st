@@ -27,10 +27,7 @@ createMethodIn: aClass withSource: source
 	
 	selector := aClass 
 		compile: source
-		classified: #generated
-		withStamp: nil 
-		notifying: nil
-		logSource: true.
+		classified: #generated.
 							
 	^ selector
 

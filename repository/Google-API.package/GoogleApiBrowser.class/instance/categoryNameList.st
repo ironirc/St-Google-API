@@ -1,3 +1,3 @@
 accesing
 categoryNameList
-	^ SystemOrganizer default categories sorted: [ :a :b | a < b ].
+	^ PackageOrganizer default packageNames sorted: [ :a :b | a < b ].

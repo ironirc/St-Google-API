@@ -10,7 +10,7 @@ uiApiDescription
 			fractions: (0@0 corner: 1@0)
 			offsets: (0@7 corner: 100@30)).
 		
-	m addMorph: (dm := PluggableTextMorph
+	m addMorph: (dm := (RubTextFieldMorph new)
 			on: self
 			text: #selectedApiDescription
 			accept: nil

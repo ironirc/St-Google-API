@@ -19,7 +19,7 @@ uiCategoryInput
 			offsets: (0@6 corner: 70@30)).
 	m color: window color.
 		
-	m addMorph: (dm := PluggableTextMorph
+	m addMorph: (dm := (RubTextFieldMorph new)
 				on: self
 				text: #txtCategory
 				accept: #txtCategory:

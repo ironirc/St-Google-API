@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfGoogleApi!
+self packageOrganizer ensurePackage: #BaselineOfGoogleApi withTags: #()!
