@@ -1,1 +1,1 @@
-self packageOrganizer ensurePackage: #'Google-API' withTags: #()!
+self packageOrganizer ensurePackage: #'Google-API' withTags: #(#'Zinc extension')!
