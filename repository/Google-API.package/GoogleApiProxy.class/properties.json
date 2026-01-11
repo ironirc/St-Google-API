@@ -13,7 +13,8 @@
 		"registrationCredentialsFile",
 		"authenticationCredentialsFile",
 		"methodAction",
-		"proxyId"
+		"proxyId",
+		"result"
 	],
 	"name" : "GoogleApiProxy",
 	"type" : "normal"
