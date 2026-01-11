@@ -1,13 +1,11 @@
 {
-	"classtraitcomposition" : "PeTRawDataHolder classTrait",
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Google-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "GoogleApi",
-	"commentStamp" : "",
-	"super" : "Object",
-	"traitcomposition" : "PeTRawDataHolder",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Google-API"
+	"type" : "normal"
 }

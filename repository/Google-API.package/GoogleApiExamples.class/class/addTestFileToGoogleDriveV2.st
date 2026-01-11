@@ -1,5 +1,5 @@
 as yet unclassified
-addTestFileToGoogleDrive
+addTestFileToGoogleDriveV2
 	| fileApi fileName localFilePath remoteFile now result | 
 	
 	" add a simple text file to Google Drive "

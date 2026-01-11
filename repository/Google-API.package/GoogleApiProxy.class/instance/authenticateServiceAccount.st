@@ -7,4 +7,3 @@ authenticateServiceAccount
 	session := ZnGoogleOAuth2Session new.
 	session accessToken: (tokenResponse at: 'access_token').
 	self authenticate: tokenResponse.
-	^ true

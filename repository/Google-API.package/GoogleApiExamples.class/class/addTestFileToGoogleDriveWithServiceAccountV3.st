@@ -1,5 +1,5 @@
 as yet unclassified
-addTestFileToGoogleDriveWithServiceAccount
+addTestFileToGoogleDriveWithServiceAccountV3
 
 	| fileApi fileName localFilePath remoteFile now result |
 	" add a simple text file to Google Drive using Service Account Authentication "" see https://developers.google.com/drive/v2/reference/files/insert "" create and authenticate API "
