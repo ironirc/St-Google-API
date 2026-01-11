@@ -14,7 +14,7 @@ openAsMorph
 
 	" auth url browser notice "
 	window
-		addMorph: ( m := PluggableTextMorph
+		addMorph: ( m := (RubTextFieldMorph new)
 			on: self
 			text: #authUrl
 			accept: nil
@@ -34,7 +34,7 @@ openAsMorph
 	
 	" code text field "
 	window
-		addMorph: ( m := PluggableTextMorph
+		addMorph: ( m := (RubTextFieldMorph new)
 			on: self
 			text: #code
 			accept: #code:

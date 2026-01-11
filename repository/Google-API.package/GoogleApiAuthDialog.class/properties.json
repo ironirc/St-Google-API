@@ -8,7 +8,8 @@
 	"instvars" : [
 		"authUrl",
 		"window",
-		"code"
+		"code",
+		"announcer"
 	],
 	"name" : "GoogleApiAuthDialog",
 	"type" : "normal"
