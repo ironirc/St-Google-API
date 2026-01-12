@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "RichardPrinz 3/4/2015 17:20",
 	"super" : "ZnMultiPartFormDataEntity",
-	"category" : "Google-API-Zinc extension",
+	"category" : "Google-API-zinc-extension",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

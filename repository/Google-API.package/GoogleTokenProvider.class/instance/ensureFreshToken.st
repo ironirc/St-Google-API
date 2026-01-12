@@ -1,0 +1,3 @@
+token
+ensureFreshToken
+	self subclassResponsibility

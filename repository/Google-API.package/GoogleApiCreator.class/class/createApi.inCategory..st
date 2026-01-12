@@ -30,7 +30,7 @@ createApi: apiDiscoveryObj inCategory: apiClassCategory
 
 	" create base class for this api "	
 	apiClassName := 'Google', apiName capitalized, 'Api'.
-	proxy := GoogleApiTools 
+	proxy := self 
 		createClassNamed: apiClassName 
 		in: apiClassCategory
 		subClassOf: GoogleApiProxy
@@ -38,19 +38,19 @@ createApi: apiDiscoveryObj inCategory: apiClassCategory
 		
 	" root url method "
 	src := 'rootPath', String cr, String tab, '^ ''', rootUrl, ''''.
-	GoogleApiTools 
+	self 
 		createMethodIn: proxy 
 		withSource: src.
 
 	" base url method "
 	src := 'basePath', String cr, String tab, '^ ''', url, ''''.
-	GoogleApiTools 
+	self 
 		createMethodIn: proxy 
 		withSource: src.
 
 	" apiName method "
 	src := 'apiName', String cr, String tab, '^ ''', apiName, ''''.
-	GoogleApiTools 
+	self 
 		createMethodIn: proxy class
 		withSource: src.
 
@@ -65,7 +65,7 @@ createApi: apiDiscoveryObj inCategory: apiClassCategory
 	apiAuth keysDo: [ :k |
 		src := src, String tab, String tab, '''', k asString, '''', String cr ]].
 	src := src, String tab, ')', String cr.
-	GoogleApiTools 
+	self 
 		createMethodIn: proxy 
 		withSource: src.	
 

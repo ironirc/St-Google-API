@@ -1,6 +1,6 @@
-as yet unclassified
+api
 open: anUrl
-	Smalltalk garbageCollect.
+
 	^ self new
-		authUrl: anUrl;
-		openAsMorph
+		  authUrl: anUrl;
+		  openAsMorph

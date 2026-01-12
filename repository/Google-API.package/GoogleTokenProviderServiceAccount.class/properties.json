@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Error",
-	"category" : "Google-API",
+	"super" : "GoogleTokenProvider",
+	"category" : "Google-API-core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "GoogleApiError",
+	"name" : "GoogleTokenProviderServiceAccount",
 	"type" : "normal"
 }

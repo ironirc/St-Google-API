@@ -1,6 +1,5 @@
-as yet unclassified
+api
 open
 
 	<script>
-	Smalltalk garbageCollect.
 	^ self new openAsMorph

@@ -26,5 +26,5 @@ listGoogleDriveFilesWithServiceAccountV3
 			Transcript
 				show: file name , ' ' , file id;
 				cr ].
-	(fileApi download: files first id) inspect.
+	"(fileApi download: files first id) inspect."
 	^ result

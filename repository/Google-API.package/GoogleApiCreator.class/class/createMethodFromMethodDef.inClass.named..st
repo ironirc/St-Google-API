@@ -12,7 +12,7 @@ createMethodFromMethodDef: methodDef inClass: aClass named: methodName
 
 	sources do: [ :source |
 		source ifNotNil: [
-			GoogleApiTools
+			self
 				createMethodIn: aClass 
 				withSource: source ] ].
 

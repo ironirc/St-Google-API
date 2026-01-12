@@ -1,4 +1,4 @@
-authentication
+auth with service account
 getAccessTokenFromGoogle: jwtAssertion
 
 	| client req response tokenResponse |

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GoogleTokenProvider",
+	"category" : "Google-API-core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oauth2Session",
+		"tokenCacheFile"
+	],
+	"name" : "GoogleTokenProviderOAuth2",
+	"type" : "normal"
+}

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Google-API-core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"apiName",
+		"id",
+		"scopes",
+		"accessToken",
+		"tokenType",
+		"expiresAt",
+		"configFile"
+	],
+	"name" : "GoogleTokenProvider",
+	"type" : "normal"
+}

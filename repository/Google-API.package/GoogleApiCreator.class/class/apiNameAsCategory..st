@@ -1,4 +1,4 @@
-accessing
+utilities
 apiNameAsCategory: anAPINameString
 	^ String
 		streamContents: [ :s | 
