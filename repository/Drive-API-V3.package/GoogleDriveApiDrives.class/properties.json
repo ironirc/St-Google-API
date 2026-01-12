@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "GoogleDriveApi",
+	"category" : "Drive-API-V3",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GoogleDriveApiDrives",
+	"type" : "normal"
+}
